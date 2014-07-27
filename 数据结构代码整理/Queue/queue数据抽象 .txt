@@ -1,0 +1,23 @@
+ADT Queue {
+    数据对象：
+    数据关系：
+    基本操作：
+InitQueue(&Q)//初始化或构造一个空队列
+
+DestroyQueue(&Q)//销毁以队列
+
+QueueEmpty(Q)//若队列为空，返回TRUE，否则返回FALSE
+
+QueueLength(Q)//返回队列的长度
+
+GetHead(Q, &e)//返回队头元素，返回值赋值给e
+
+
+ClearQueue(&Q)//清空栈为空栈   
+
+EnQueue(&Q, e)//插入元素e为Q的新的队尾元素
+
+DeQueue(&Q, &e)//删除Q的队头元素，并返回e
+
+QueueTravers(Q, visit())//遍历队列，对栈内每个元素调用函数visit()
+}ADT Queue  	

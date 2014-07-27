@@ -11,7 +11,6 @@
 #define OK 1
 #define ERROR 0
 #define INFEASIBLE -1
-//this is a tttest
 //#include<process.h> /* exit() */
 #define LIST_INIT_SIZE 10 /* 线性表存储空间的初始分配量 */
 #define LISTINCREMENT 2 /* 线性表存储空间的分配增量 */
